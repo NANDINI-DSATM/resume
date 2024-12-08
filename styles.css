@@ -1,0 +1,122 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f3f4f6; /* Light Background */
+    color: #333; /* Text Color */
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(135deg, #6c63ff, #38bdf8); /* Gradient Background */
+    color: white;
+    text-align: center;
+    padding: 2.5rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #f9fafb;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #e0e7ff; 
+}
+
+header a {
+    color: #ff6b6b; 
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+}
+
+/* Section Headers */
+h2 {
+    color: #6c63ff; 
+    border-bottom: 4px solid #f59e0b; 
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Summary Section */
+.summary p {
+    background-color: #e0f7fa; 
+    border-left: 6px solid #10b981; 
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Education Section */
+.education ul li {
+    background-color: #c7f9f7; 
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 6px solid #6c63ff;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.education ul li:hover {
+    transform: translateX(10px);
+    background-color: #b2ebf2; 
+}
+
+/* Skills Section */
+.skills ul li {
+    background-color: #ffebcc; 
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 6px solid #f59e0b;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.skills ul li:hover {
+    transform: translateX(10px);
+    background-color: #ffe0b3; 
+}
+
+/* Projects Section */
+.projects .project {
+    background-color: #e0f7fa; 
+    border-left: 6px solid #10b981; 
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.projects .project h3 {
+    color: #1f2937; 
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.projects .project:hover {
+    transform: scale(1.05);
+    background-color: #c7f9f7; 
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.projects
